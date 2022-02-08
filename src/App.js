@@ -1,8 +1,9 @@
+import FormattedFeelings from "./FormattedFeelings";
 
 function App() {
   return (
     <>
-      App
+      <FormattedFeelings />
     </>
   );
 }
