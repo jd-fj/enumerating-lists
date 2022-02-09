@@ -1318,8 +1318,10 @@ export function getFeelings() {
 }
 
 export function getFeelingCategories() {
-  return feelings.map((feeling) => feeling.category
-  );
+  return feelings.map((feeling) => feeling.category);
+}
+export function getFeelingNames() {
+  return feelings.map((feeling) => feeling.name);
 }
 
 export function getFeeling(name) {

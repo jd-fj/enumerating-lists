@@ -1,11 +1,12 @@
-import FormattedFeelings from "./FormattedFeelings";
+import FeelingsList from "./FeelingsList";
+// import { getFeelings } from "./allFeelings";
 
-function App() {
+export default function App() {
+  // const feelings = getFeelings();
   return (
     <>
-      <FormattedFeelings />
+    I am app
+      <FeelingsList />
     </>
   );
 }
-
-export default App;
