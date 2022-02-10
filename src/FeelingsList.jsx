@@ -7,8 +7,15 @@ export default function FeelingsList(props) {
   const names = getFeelingNames();
   return (
     <>
-      <Categories categories={categories} />
-      <Names names={names} />
+      <div
+        style={{
+          display: "flex",
+          borderRight: "solid black 1px",
+        }}
+      >
+        <Categories categories={categories} />
+        <Names names={names} />
+      </div>
     </>
   );
 }
